@@ -1,0 +1,28 @@
+# Data (regenerable; dataset is large and CC BY 4.0 - not committed)
+data/
+*.mat
+brain*tumour*/
+brain*tumor*/
+
+# Model checkpoints & large generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.npz
+results/checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
