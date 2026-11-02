@@ -1,5 +1,5 @@
 # Data (regenerable; dataset is large and CC BY 4.0 - not committed)
-data/
+/data/
 *.mat
 brain*tumour*/
 brain*tumor*/
@@ -9,7 +9,7 @@ brain*tumor*/
 *.pth
 *.ckpt
 *.npz
-results/checkpoints/
+/results/checkpoints/
 
 # Python
 __pycache__/
